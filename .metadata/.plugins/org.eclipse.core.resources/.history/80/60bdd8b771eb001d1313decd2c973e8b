@@ -1,0 +1,12 @@
+/**
+ * Edu Reis - 2023
+ *
+ * Classe responsável pelo tratamento de negócio do Usuário
+ */
+
+package com.internetbanking.edu.internetbankingedu.controller;
+
+public class UserController 
+{
+
+}

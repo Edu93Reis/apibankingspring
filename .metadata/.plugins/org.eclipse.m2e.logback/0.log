@@ -1,0 +1,296 @@
+2023-05-04 23:53:46,526 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-05-04 23:55:19,826 [Worker-11: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.internetbanking.edu:internetbanking-edu:0.0.1-SNAPSHOT @ D:\workspaces\InternetBanking\internetbanking-edu\pom.xml.
+2023-05-04 23:55:31,246 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 23:55:31,259 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-04 23:55:31,296 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-04 23:55:31,669 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-04 23:55:31,700 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 23:55:31,700 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-04 23:55:31,701 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:02:40,511 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:02:40,554 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:02:40,558 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:02:40,574 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:02:40,593 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:02:40,593 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:02:40,593 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:03:42,082 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:03:42,118 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:03:42,123 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:03:42,134 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:03:42,144 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:03:42,145 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:03:42,145 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:03:45,645 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:03:45,646 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:03:45,651 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:03:45,660 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:03:45,684 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:03:45,685 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:03:45,685 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:03:56,250 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:03:56,254 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:03:56,256 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:03:56,271 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:03:56,281 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:03:56,281 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:03:56,281 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:04:08,615 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:04:08,616 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:04:08,617 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:04:08,621 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:04:08,630 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:04:08,630 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:04:08,630 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:04:49,193 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:04:49,195 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:04:49,197 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:04:49,202 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:04:49,220 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:04:49,221 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:04:49,221 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:04:58,154 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:04:58,155 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:04:58,159 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:04:58,164 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:04:58,178 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:04:58,178 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:04:58,178 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:05:05,789 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:05:05,790 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:05:05,792 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:05:05,797 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:05:05,811 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:05:05,812 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:05:05,815 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:05:46,686 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:05:46,687 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:05:46,689 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:05:46,692 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:05:46,700 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:05:46,701 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:05:46,701 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:06:27,491 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:06:27,492 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:06:27,495 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:06:27,502 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:06:27,512 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:06:27,512 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:06:27,513 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:06:53,080 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:06:53,082 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:06:53,085 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:06:53,091 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:06:53,106 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:06:53,106 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:06:53,106 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:06:55,288 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:06:55,289 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:06:55,291 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:06:55,295 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:06:55,311 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:06:55,311 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:06:55,311 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:07:01,886 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:07:01,887 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:07:01,889 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:07:01,892 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:07:01,901 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:07:01,901 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:07:01,901 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:07:36,906 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:07:36,906 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:07:36,909 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:07:36,914 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:07:36,923 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:07:36,923 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:07:36,923 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:08:21,143 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:08:21,144 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:08:21,146 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:08:21,149 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:08:21,157 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:08:21,157 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:08:21,157 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:08:37,654 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:08:37,655 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:08:37,658 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:08:37,668 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:08:37,677 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:08:37,678 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:08:37,678 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:08:48,271 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:08:48,272 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:08:48,274 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:08:48,278 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:08:48,286 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:08:48,286 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:08:48,286 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:08:54,556 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:08:54,557 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:08:54,559 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:08:54,564 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:08:54,572 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:08:54,572 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:08:54,573 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:08:56,964 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:08:56,965 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:08:56,967 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:08:56,972 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:08:56,981 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:08:56,981 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:08:56,981 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:10:11,924 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:10:11,925 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:10:11,928 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:10:11,932 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:10:11,940 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:10:11,941 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:10:11,941 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:10:34,422 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:10:34,423 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:10:34,425 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:10:34,441 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:10:34,447 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:10:34,448 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:10:34,448 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:10:56,057 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:10:56,058 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:10:56,059 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:10:56,063 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:10:56,070 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:10:56,070 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:10:56,071 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:11:26,200 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:11:26,201 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:11:26,204 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:11:26,208 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:11:26,217 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:11:26,217 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:11:26,217 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:12:03,509 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:12:03,509 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:12:03,511 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:12:03,514 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:12:03,521 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:12:03,522 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:12:03,522 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:12:08,480 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:12:08,481 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:12:08,484 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:12:08,488 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:12:08,496 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:12:08,496 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:12:08,496 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:12:40,438 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:12:40,442 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:12:40,443 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:12:40,451 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:12:40,476 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:12:40,477 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:12:40,477 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:12:44,128 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:12:44,129 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:12:44,132 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:12:44,166 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:12:44,175 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:12:44,176 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:12:44,176 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:14:07,699 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:14:07,700 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:14:07,703 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:14:07,706 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:14:07,715 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:14:07,716 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:14:07,716 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:14:17,263 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:14:17,264 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:14:17,266 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:14:17,270 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:14:17,282 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:14:17,282 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:14:17,282 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:14:32,263 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:14:32,265 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:14:32,266 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:14:32,270 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:14:32,279 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:14:32,279 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:14:32,279 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:14:41,893 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:14:41,894 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:14:41,896 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:14:41,899 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:14:41,906 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:14:41,906 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:14:41,906 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:14:48,892 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:14:48,893 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:14:48,894 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:14:48,898 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:14:48,906 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:14:48,906 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:14:48,907 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:16:17,779 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:16:17,808 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:16:17,810 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:16:17,817 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:16:17,831 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:16:17,831 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:16:17,832 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:17:05,610 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:17:05,611 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:17:05,613 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:17:05,616 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:17:05,622 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:17:05,622 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:17:05,622 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:17:35,910 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:17:35,911 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:17:35,914 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:17:35,918 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:17:35,928 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:17:35,928 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:17:35,928 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:17:50,328 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:17:50,330 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:17:50,333 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:17:50,353 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:17:50,363 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:17:50,363 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:17:50,363 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:18:00,408 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:18:00,413 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:18:00,415 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:18:00,418 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:18:00,426 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:18:00,426 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:18:00,427 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:18:27,285 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:18:27,287 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:18:27,289 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:18:27,297 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:18:27,305 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:18:27,305 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:18:27,305 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:18:35,255 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:18:35,255 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:18:35,257 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:18:35,260 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:18:35,267 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:18:35,267 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:18:35,267 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:18:51,072 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:18:51,073 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:18:51,074 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:18:51,078 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:18:51,085 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:18:51,086 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:18:51,086 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-05 00:19:30,799 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:19:30,800 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:19:30,802 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:19:30,805 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-05 00:19:30,812 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:19:30,812 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-05 00:19:30,812 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
