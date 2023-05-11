@@ -19,10 +19,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.stereotype.Service;
 
+import com.internetbanking.edu.internetbankingedu.exceptions.RegraNegocioException;
 import com.internetbanking.edu.internetbankingedu.model.Account;
 import com.internetbanking.edu.internetbankingedu.model.service.AccountService;
 import com.internetbanking.edu.internetbankingedu.repository.AccountRepository;
-import com.internetbanking.edu.internetbankingedu.repository.UserRepository;
 
 @Service
 public class AccountServiceImpl implements AccountService
@@ -32,80 +32,47 @@ public class AccountServiceImpl implements AccountService
 	AccountRepository repository;
 	private List<Account> account;
 	
-	public AccountServiceImpl( AccountRepository repository) {
+	public AccountServiceImpl( AccountRepository repository ) {
 		super();
 		this.repository = repository;
 	}
 	
-//	public void createAccountService( )
-//	{
-//		if( factory == null )
-//		{
-//			factory = new AccountFactoryImpl( );
-//		}
-//	}
-//	
-//	public void createAccountList( )
-//	{
-//		if ( account == null )
-//		{
-//			account = new ArrayList<>();
-//		}
-//	}
-//	
-//	public boolean isJSONValid( String jsonInString )
-//	{
-//		try
-//		{
-//			return !Objects.isNull( new ObjectMapper( ).readTree( jsonInString ) ) ;
-//		}
-//		catch ( IOException e )
-//		{
-//			return false;
-//		}
-//	}
-//	
-//	public long parseId( JSONObject account )
-//	{
-//		return Long.valueOf( (int) account.get("idConta") );
-//	}
-//	
-//	public String parseNumConta( JSONObject account )
-//	{
-//		return String.valueOf( (String) account.get( "numConta" ) );
-//	}
-//	
-//	public BigDecimal parseSaldo( JSONObject account )
-//	{
-//		return new BigDecimal( (String) account.get( "saldo" ) );
-//	}
-//	
-//	public boolean parseIsPlanoExclusive( JSONObject account )
-//	{
-//		return new Boolean( (String) account.get("bPlanoExclusive") );
-//	}
-//	
-//	public void setAccountValues( JSONObject jsonAccount, Account account )
-//	{
-//		
-//	}
-	
 	@Override
 	public Account save( Account conta ) 
 	{
+		validarConta( conta.getNumConta( ) );
 		return repository.save( conta );
+	}
+
+	public void validarConta( String numConta ) {
+		Optional<Account> conta = repository.findByNumConta( numConta );
+		if( !conta.isPresent( ) ) {
+			throw new RegraNegocioException( "Conta já cadastrada!" );
+		}
+	}
+	
+	@Override
+	public void updateIsPlanoExclusive( Account conta ) 
+	{
+		repository.updateIsPlanoExclusive( conta.isPlanoExclusive( ), conta.getIdConta( ) );
 	}
 
 	@Override
 	public Optional<Account> findByAccountNumber( String numConta ) 
 	{
-		return repository.findByAccountNumber( numConta );
+		return repository.findByNumConta( numConta );
 	}
 
 	@Override
 	public Optional<Account> findById( Long idConta ) 
 	{
 		return repository.findById( idConta );
+	}
+	
+	@Override
+	public List<Account> returnAllAccounts( )
+	{
+		return repository.findAll( );
 	}
 	
 	

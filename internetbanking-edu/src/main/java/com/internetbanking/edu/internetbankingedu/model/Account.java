@@ -8,47 +8,80 @@ package com.internetbanking.edu.internetbankingedu.model;
 
 import java.math.BigDecimal;
 
-import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-
 import org.modelmapper.ModelMapper;
 
 import com.internetbanking.edu.internetbankingedu.dto.model.user.AccountDTO;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
+@Entity
+@Table( name="Conta" )
 public class Account {
 	
 	@Id
 	@GeneratedValue( strategy = GenerationType.IDENTITY )
+	@Column( name="idconta", nullable = false )
 	private Long idConta;
 	
-	@Column( nullable = false )
+	@Column( name="numconta", nullable = false )
 	private String numConta;
 	
-	@Column( nullable = false )
+	@Column( name="saldo" )
 	private BigDecimal saldo;
 	
-	@Column( nullable = false )
-	private boolean isPlanoExclusive;
+	@Column( name="isplanoexclusive" )
+	private int isPlanoExclusive;
 	
-//	/**
-//	 * Verifica se usuário é do Plano Exclusive
-//	 * 
-//	 * @return boolean
-//	 */
-//	public boolean isPlanoExclusive( )
-//	{
-//		return PlanoEnum.ROLE_ENUM.toString( ).equals( this.isPlanoExclusive.toString( ) );
-//	}
+	public Account( )
+	{
+		super( );
+	}
 	
+	public Account( Long idConta, String numConta, BigDecimal saldo, int isPlanoExclusive ) {
+		super( );
+		this.idConta = idConta;
+		this.numConta = numConta;
+		this.saldo = saldo;
+		this.isPlanoExclusive = isPlanoExclusive;
+	}
+	
+	public Long getIdConta() {
+		return idConta;
+	}
+
+	public void setIdConta(Long idConta) {
+		this.idConta = idConta;
+	}
+
+	public String getNumConta() {
+		return numConta;
+	}
+
+	public void setNumConta(String numConta) {
+		this.numConta = numConta;
+	}
+
+	public BigDecimal getSaldo() {
+		return saldo;
+	}
+
+	public void setSaldo(BigDecimal saldo) {
+		this.saldo = saldo;
+	}
+
+	public int isPlanoExclusive() {
+		return isPlanoExclusive;
+	}
+
+	public void setPlanoExclusive( int isPlanoExclusive ) {
+		this.isPlanoExclusive = isPlanoExclusive;
+	}
+
 	/**
 	 * Metodo para conversão de Account para DTO
 	 * 
@@ -58,5 +91,6 @@ public class Account {
 	{
 		return new ModelMapper( ).map( this, AccountDTO.class );
 	}
+
 
 }

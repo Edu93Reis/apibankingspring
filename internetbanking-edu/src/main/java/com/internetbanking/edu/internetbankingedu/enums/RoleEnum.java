@@ -2,8 +2,8 @@ package com.internetbanking.edu.internetbankingedu.enums;
 
 public enum RoleEnum {
 	
-	ROLE_ADMIN("ADMIN"), 
-	ROLE_USER("USER");
+	ROLE_USER( "0" ),	
+	ROLE_ADMIN( "1" ); 
 	
 	private String value;
 	

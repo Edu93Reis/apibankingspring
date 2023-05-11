@@ -1,70 +1,129 @@
 package com.internetbanking.edu.internetbankingedu.dto.model.user;
 
 import java.util.Date;
+import java.util.Objects;
 
-import javax.validation.constraints.NotNull;
-
-import org.hibernate.validator.constraints.Length;
 import org.modelmapper.ModelMapper;
+import org.springframework.hateoas.Link;
 import org.springframework.hateoas.RepresentationModel;
 
 import com.internetbanking.edu.internetbankingedu.model.User;
 
-/**
- * Edu Reis - 2023
- *
- * Classe de Data trasfer object do Usuario
- */
+import jakarta.persistence.Column;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Pattern;
 
-import lombok.AllArgsConstructor;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-
-@Setter
-@NoArgsConstructor
-@AllArgsConstructor
-@EqualsAndHashCode( callSuper = false )
 public class UserDTO extends RepresentationModel<UserDTO>
 {
 	
-	@Getter
+	@Id
+	@GeneratedValue( strategy = GenerationType.IDENTITY )
+	@Column( name="idUsuario", nullable = false )
 	private Long idUsuario;
-	
-	@Getter
-	@NotNull( message = "Preencha o campo nome" )
-	@Length( min=3, max=45, message="Nome pode possuir no máximo 45 caracteres" )
 	private String nome;
-
-	@Getter
-	@NotNull( message = "Preencha o campo CPF" )
-	@Length( min=14, max=14, message="CPF deve possuir 14 caracteres" )
 	private String cpf;
-
-	@Getter
-	@NotNull( message = "Preencha o campo Data de Nascimento" )
 	private Date dataNascimento;
-	
-	@Getter
-	@NotNull( message = "Preencha o campo senha" )
-	@Length( min=7, max=12, message="Senha deve possuir no máximo 12 caracteres e no mínimo 7 caracteres" )
 	private String senha;
-	
-	@Getter
 	private String role;
 	
-	public UserDTO (  )
-	{
-		
+	private int account;
+	
+	
+	
+	public UserDTO() {
+		super();
+	}
+
+	public UserDTO(Iterable<Link> initialLinks) {
+		super(initialLinks);
+	}
+
+	public UserDTO(Link initialLink) {
+		super(initialLink);
 	}
 	
+	public UserDTO(Long idUsuario, String nome, String cpf, Date dataNascimento, String senha, String role, int account) {
+		super();
+		this.idUsuario = idUsuario;
+		this.nome = nome;
+		this.cpf = cpf;
+		this.dataNascimento = dataNascimento;
+		this.senha = senha;
+		this.role = role;
+		this.account = account;
+	}
+	
+	public UserDTO( String nome, String cpf, Date dataNascimento, String senha, String role ) 
+	{
+		super();
+		this.nome = nome;
+		this.cpf = cpf;
+		this.dataNascimento = dataNascimento;
+		this.senha = senha;
+		this.role = role;
+	}
+
 	public String getSenha( )
 	{
 //		return BcryptUtil.getHash( this.senha );
-		return "";
+		return this.senha;
 	}
 	
+	public Long getIdUsuario() {
+		return idUsuario;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public String getCpf() {
+		return cpf;
+	}
+
+	public Date getDataNascimento() {
+		return dataNascimento;
+	}
+
+	public String getRole() {
+		return role;
+	}
+	
+	public int getAccount() {
+		return account;
+	}
+	
+	public void setIdUsuario(Long idUsuario) {
+		this.idUsuario = idUsuario;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+
+	public void setDataNascimento(Date dataNascimento) {
+		this.dataNascimento = dataNascimento;
+	}
+
+	public void setSenha(String senha) {
+		this.senha = senha;
+	}
+
+	public void setRole(String role) {
+		this.role = role;
+	}
+
+	public void setAccount(int account) {
+		this.account = account;
+	}
+
 	/**
 	 * Convert usuario para DTO
 	 * 
@@ -74,5 +133,31 @@ public class UserDTO extends RepresentationModel<UserDTO>
 	{
 		return new ModelMapper( ).map( this, User.class );
 	}
-	
+
+	@Override
+	public String toString() {
+		return "UserDTO [idUsuario=" + idUsuario + ", nome=" + nome + ", cpf=" + cpf + ", dataNascimento="
+				+ dataNascimento + ", senha=" + senha + ", role=" + role + ", account= " + account + "]";
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash( cpf, dataNascimento, idUsuario, nome, role, senha); //account,
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		UserDTO other = (UserDTO) obj;
+		return account == other.account && Objects.equals(cpf, other.cpf)
+				&& Objects.equals(dataNascimento, other.dataNascimento) && Objects.equals(idUsuario, other.idUsuario)
+				&& Objects.equals(nome, other.nome) && Objects.equals(role, other.role)
+				&& Objects.equals(senha, other.senha);
+	}
+
 }

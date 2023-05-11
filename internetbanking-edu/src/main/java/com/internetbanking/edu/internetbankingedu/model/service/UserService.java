@@ -12,14 +12,18 @@ import java.util.Optional;
 import com.internetbanking.edu.internetbankingedu.model.User;
 
 public interface UserService {
-	
+
 	User save( User user );
 	
-	Optional<User> findByCPF( String cpf );
+	Optional<User> findByCpf( String cpf );
+	
+	List<User> findAll();
+	
+	Optional<User> obterPorId( Long id );
 
 	User autenticar( String cpf, String senha );
 	
-	void validarCPF( String cpf );
+	void validarCpf( String cpf );
 	
 	List<User> returnUsers( );
 

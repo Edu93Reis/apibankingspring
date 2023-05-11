@@ -6,6 +6,7 @@
 
 package com.internetbanking.edu.internetbankingedu.model.service.impl;
 
+import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Optional;
 
@@ -36,95 +37,16 @@ public class UserServiceImpl implements UserService {
 		this.repository = repository;
 	}
 	
-//	public void createUserService( )
-//	{
-//		if( factory == null )
-//		{
-//			factory = new userFactoryImpl( );
-//		}
-//	}
-//	
-//	public void createUsertList( )
-//	{
-//		if ( Objects.isNull( user ) )
-//		{
-//			user = new ArrayList<>();
-//		}
-//	}
-//	
-//	public boolean isJSONValid( String jsonInString )
-//	{
-//		try
-//		{
-//			return !Objects.isNull( new ObjectMapper( ).readTree( jsonInString ) ) ;
-//		}
-//		catch ( IOException e )
-//		{
-//			return false;
-//		}
-//	}
-//	
-//	public long parseId( JSONObject user )
-//	{
-//		return Long.valueOf( (int) user.get( "idUsuario" ) );
-//	}
-//	
-//	public String parseNome( JSONObject user )
-//	{
-//		return String.valueOf( (String) user.get( "nome" ) );
-//	}
-//
-//	public String parseCPF( JSONObject user )
-//	{
-//		return String.valueOf( (String) user.get( "cpf" ) );
-//	}
-//
-//	public String parseSenha( JSONObject user )
-//	{
-//		return String.valueOf( (String) user.get( "senha" ) );
-//	}
-//	
-//	public LocalDateTime parseDtNascimento( JSONObject user )
-//	{
-//		var date  = (String) user.get( "dataNascimento" );
-//		return ZonedDateTime.parse( date ).toLocalDateTime( );
-//	}
-//	
-//	public boolean parseIsCliente( JSONObject user )
-//	{
-//		return new Boolean( (String) user.get("isCliente") );
-//	}
-//
-//	public boolean parseIsAdmin( JSONObject user )
-//	{
-//		return new Boolean( (String) user.get("isAdmin") );
-//	}
-//	
-//	public void setUserValues( JSONObject jsonUser, User user )
-//	{
-//		
-//	}
-//	
-//	public User create( JSONObject jsonUser )
-//	{
-//		createFactory( );
-//		
-//		User user = factory.createUser( (String) jsonUser.get("idUsuario") );
-//		setUserValues( jsonUser, user );
-//		
-//		return user;
-//	}
-	
 	@Override
 	public User autenticar( String cpf, String senha ) {
 		
-		Optional<User> user = repository.findByCPF( cpf );
+		Optional<User> user = repository.findByCpf( cpf );
 		
 		if( !user.isPresent( ) ) {
 			throw new ErroAutenticacaoException("Usuário não cadastrado!");
 		}
 		
-		if( !user.get().getSenha().equals( senha ) ) {
+		if( !user.get( ).getSenha( ).equals( senha ) ) {
 			throw new ErroAutenticacaoException("Senha inválida!");
 		}
 		
@@ -135,21 +57,31 @@ public class UserServiceImpl implements UserService {
 	@Override
 	@Transactional
 	public User save( User user ) {
-		validarCPF( user.getCpf( ) );
+		if ( !isCpfValido( user.getCpf( ) ) )
+		{
+			throw new RegraNegocioException( "CPF Inválido!" );
+		}
+		
+		validarCpf( user.getCpf( ) );
 		return repository.save(user);
 	}
 	
 	@Override
-	public void validarCPF( String cpf ) {
-		boolean existe = repository.existsByCPF( cpf );
+	public void validarCpf( String cpf ) {
+		boolean existe = repository.existsByCpf( cpf );
 		if( existe ) {
-			throw new RegraNegocioException("Usuário já cadastrado para este cpf!");
+			throw new RegraNegocioException( "Usuário já cadastrado para este cpf!" );
 		}
 	}
 
 	@Override
-	public Optional<User> findByCPF( String cpf ) {
-		return repository.findByCPF( cpf );
+	public Optional<User> obterPorId( Long idUser ) {
+		return repository.findById( idUser );
+	}
+
+	@Override
+	public Optional<User> findByCpf( String cpf ) {
+		return repository.findByCpf( cpf );
 	}
 
 	@Override
@@ -164,5 +96,73 @@ public class UserServiceImpl implements UserService {
 
 		return repository.findAll( example );
 	}
+
+	@Override
+	public List<User> findAll( ) {
+		return repository.findAll( );
+	}
 	
+	private boolean isCpfValido( String cpf ) 
+	{
+		if (cpf.equals("00000000000") ||
+	            cpf.equals("11111111111") ||
+	            cpf.equals("22222222222") || cpf.equals("33333333333") ||
+	            cpf.equals("44444444444") || cpf.equals("55555555555") ||
+	            cpf.equals("66666666666") || cpf.equals("77777777777") ||
+	            cpf.equals("88888888888") || cpf.equals("99999999999") ||
+	            (cpf.length() != 11))
+	            return false;
+
+	     char dig10, dig11;
+	     int sm, i, r, num, peso;
+
+	     try {
+	    	 // Calculo do 1o. Digito Verificador
+	         sm = 0;
+	         peso = 10;
+	         
+	         for( i=0; i<9; i++ ) {
+	            num = (int)(cpf.charAt(i) - 48);
+	            sm = sm + (num * peso);
+	            peso = peso - 1;
+	         }
+
+	         r = 11 - (sm % 11);
+
+	         if ((r == 10) || (r == 11))
+	            dig10 = '0';
+	         else dig10 = (char)(r + 48); 
+	         
+	         sm = 0;
+	         peso = 11;
+
+	         for(i=0; i<10; i++) {
+	            num = (int)(cpf.charAt(i) - 48);
+	            sm = sm + (num * peso);
+	            peso = peso - 1;
+	         }
+
+	         r = 11 - (sm % 11);
+	         if ((r == 10) || (r == 11))
+	         {
+	            dig11 = '0';
+	         }
+	         else
+	         {
+	        	 dig11 = (char)(r + 48);
+	         }
+
+	         if ((dig10 == cpf.charAt(9)) && (dig11 == cpf.charAt(10)))
+	         {
+	        	 return true;
+	         }
+	         else 
+	         {
+	        	 return false;
+	         }       
+	         
+	       } catch ( InputMismatchException erro ) {
+	          return false;
+	       }
+	}
 }

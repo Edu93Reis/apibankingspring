@@ -6,72 +6,101 @@
 
 package com.internetbanking.edu.internetbankingedu.model;
 
+import java.io.Serializable;
 import java.util.Date;
-
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.EnumType;
-import javax.persistence.Enumerated;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 
 import org.modelmapper.ModelMapper;
 
 import com.internetbanking.edu.internetbankingedu.dto.model.user.UserDTO;
 import com.internetbanking.edu.internetbankingedu.enums.RoleEnum;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import jakarta.persistence.CascadeType;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.JoinTable;
+import jakarta.persistence.OneToOne;
+import jakarta.persistence.PrimaryKeyJoinColumn;
+import jakarta.persistence.Table;
 
 @Entity
-@Getter
-@Setter
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
-public class User {
+@Table( name="Usuario" )
+public class User implements Serializable {
+
+	private static final long serialVersionUID = 1200614431683864022L;
 
 	@Id
 	@GeneratedValue( strategy = GenerationType.IDENTITY )
-	private Long idUser;
+	@Column( name="idusuario", nullable = false )
+	private Long idUsuario;
 
-	@Column( nullable = false )
+	@Column( name="nome", length=45, nullable = false )
 	private String nome;
 
-	@Column( nullable = false )
+	@Column( name="cpf", length=14, nullable = false )
 	private String cpf;
 	
-	@Column( nullable = false )
+	@Column( name="datanascimento", nullable = false )
 	private Date dataNascimento;
 	
-	@Column( nullable = false )
+	@Column( name="senha", length=12, nullable = false )
 	private String senha;
 	
-	@Enumerated( EnumType.STRING )
-	private RoleEnum role;
+	@Column( name="iscliente", length=1, nullable = false )
+	private String isCliente;
+
+	@Column( name="isadmin", length=1, nullable = false )
+	private String isAdmin;
 	
-	@Column( nullable = false )
-	private int account;
+//	@PrimaryKeyJoinColumn
+//	@OneToOne( cascade=CascadeType.ALL )
+//	@JoinTable(name="conta",
+//			    joinColumns={@JoinColumn(name="idConta",  
+//			     referencedColumnName="idConta")},  
+//			    inverseJoinColumns={@JoinColumn(name="conta",   
+//			     referencedColumnName="conta")}) 
+////	@Column( name="conta", nullable = false )
+//	private int account;
 	
-	public User( Long idUser )
+	public User( Long idUsuario )
 	{
-		this.idUser = idUser;
+		this.idUsuario = idUsuario;
 	}
 	
-	/**
-	 * Verifica se usuário é admin
-	 * 
-	 * @return boolean
-	 */
-	public boolean isAdmin( )
+	public User( )
 	{
-		return RoleEnum.ROLE_ADMIN.toString( ).equals( this.role.toString( ) );
+		super( );
 	}
 	
+	public User( Long idUsuario, String nome, String cpf, Date dataNascimento, String senha, String isCliente, String isAdmin )//, int account ) 
+	{
+		super();
+		this.idUsuario = idUsuario;
+		this.nome = nome;
+		this.cpf = cpf;
+		this.dataNascimento = dataNascimento;
+		this.senha = senha;
+		this.isCliente = isCliente;
+		this.isAdmin = isAdmin;
+//		this.account = account;
+	}
+
+	public User(String nome, String cpf, Date dataNascimento, String senha, String isCliente, String isAdmin ) 
+	{
+		super();
+		this.nome = nome;
+		this.cpf = cpf;
+		this.dataNascimento = dataNascimento;
+		this.senha = senha;
+		this.isCliente = isCliente;
+		this.isAdmin = isAdmin;
+	}
+
 	/**
 	 * Metodo para conversão de User para DTO
 	 * 
@@ -90,5 +119,61 @@ public class User {
 	public String getSenha() {
 		return senha;
 	}
+
+	public Long getIdUser() {
+		return idUsuario;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public Date getDataNascimento() {
+		return dataNascimento;
+	}
+
+	public String getIsAdmin() {
+		return isAdmin;
+	}
+	
+	public String getIsCliente() {
+		return isCliente;
+	}
+
+//	public int getAccount() {
+//		return account;
+//	}
+
+	public void setIdUser(Long idUsuario) {
+		this.idUsuario = idUsuario;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+
+	public void setDataNascimento(Date dataNascimento) {
+		this.dataNascimento = dataNascimento;
+	}
+
+	public void setSenha(String senha) {
+		this.senha = senha;
+	}
+
+	public void setIsAdmin(String isAdmin) {
+		this.isAdmin = isAdmin;
+	}
+	
+	public void setIsCliente(String isCliente) {
+		this.isCliente = isCliente;
+	}
+
+//	public void setAccount(int account) {
+//		this.account = account;
+//	}
 	
 }

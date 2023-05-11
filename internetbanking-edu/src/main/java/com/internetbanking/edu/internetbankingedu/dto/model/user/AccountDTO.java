@@ -7,49 +7,79 @@ package com.internetbanking.edu.internetbankingedu.dto.model.user;
  */
 
 import java.math.BigDecimal;
-import java.util.Date;
-
-import javax.validation.constraints.NotNull;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.hateoas.RepresentationModel;
 
 import com.internetbanking.edu.internetbankingedu.model.Account;
 
-import lombok.AllArgsConstructor;
+import jakarta.validation.constraints.NotNull;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
 
-@Setter
-@NoArgsConstructor
-@AllArgsConstructor
 @EqualsAndHashCode( callSuper = false )
 public class AccountDTO  extends RepresentationModel<AccountDTO>
 {
-	@Getter
 	private Long idConta;
 	
-	@Getter
 	@NotNull
 	private String numConta;
 
-	@Getter
-	private BigDecimal cpf;
+	private BigDecimal saldo;
 
-	@Getter
-	@NotNull( message = "Preencha o campo Data de Nascimento" )
-	private Date dataNascimento;
-	
-	@Getter
-	private boolean isPlanoExclusive;
+	private int isPlanoExclusive;
 	
 	public AccountDTO (  )
 	{
-		
+		super( );
 	}
 	
+	public AccountDTO(Long idConta, @NotNull String numConta, BigDecimal saldo, int isPlanoExclusive) {
+		super();
+		this.idConta = idConta;
+		this.numConta = numConta;
+		this.saldo = saldo;
+		this.isPlanoExclusive = isPlanoExclusive;
+	}
+
+	public AccountDTO( BigDecimal saldo, int isPlanoExclusive) {
+		super();
+		this.saldo = saldo;
+		this.isPlanoExclusive = isPlanoExclusive;
+	}
+	
+	public Long getIdConta() {
+		return idConta;
+	}
+
+	public void setIdConta(Long idConta) {
+		this.idConta = idConta;
+	}
+
+	public String getNumConta() {
+		return numConta;
+	}
+
+	public void setNumConta(String numConta) {
+		this.numConta = numConta;
+	}
+
+	public BigDecimal getSaldo() {
+		return saldo;
+	}
+
+	public void setSaldo(BigDecimal saldo) {
+		this.saldo = saldo;
+	}
+
+	public int isPlanoExclusive() {
+		return isPlanoExclusive;
+	}
+
+	public void setPlanoExclusive(int isPlanoExclusive) {
+		this.isPlanoExclusive = isPlanoExclusive;
+	}
+
 	/**
 	 * Convert usuario para DTO
 	 * 
