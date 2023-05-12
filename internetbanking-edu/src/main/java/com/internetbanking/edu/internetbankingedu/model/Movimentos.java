@@ -42,7 +42,7 @@ public class Movimentos {
 	private Date dataAtualizacao;
 	
 	@Column( name="idconta", nullable = false )
-	private int idConta;
+	private Long idConta;
 	
 	public Movimentos( Long idMovimento )
 	{
@@ -55,7 +55,7 @@ public class Movimentos {
 	}
 
 	public Movimentos( Long idMovimento, BigDecimal saldoData, BigDecimal entrada, BigDecimal saida,
-					   Date dataAtualizacao, int idConta ) 
+					   Date dataAtualizacao, Long idConta ) 
 	{
 		super();
 		this.idMovimento = idMovimento;
@@ -105,7 +105,7 @@ public class Movimentos {
 		return dataAtualizacao;
 	}
 
-	public int getIdConta() {
+	public Long getIdConta() {
 		return idConta;
 	}
 
@@ -129,7 +129,7 @@ public class Movimentos {
 		this.dataAtualizacao = dataAtualizacao;
 	}
 
-	public void setIdConta(int idConta) {
+	public void setIdConta(Long idConta) {
 		this.idConta = idConta;
 	}
 	

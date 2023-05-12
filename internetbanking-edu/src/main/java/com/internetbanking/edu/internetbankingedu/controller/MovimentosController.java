@@ -53,9 +53,22 @@ public class MovimentosController
 	@ApiOperation(value = "Route to insert account's registers")
 	public ResponseEntity insereMovimento( @RequestBody Movimentos movimento )
 	{
+		Optional<Account> conta = contaService.findById( movimento.getIdConta( ) );
+		
 		if( Objects.isNull( movimento ) )
 		{
 			return ResponseEntity.badRequest( ).body( "Dados de movimentação inválidas!" );
+		}
+		
+		if( !conta.isPresent( ) )
+		{
+			return ResponseEntity.badRequest( ).body( "Conta inacessível!" );
+		}
+		
+		if( conta.get( ).isPlanoExclusive( ) == 1 )
+		{
+			movimento.setEntrada( atualizaValorPorTaxa( movimento.getEntrada( ) ) );
+			movimento.setSaida( atualizaValorPorTaxa( movimento.getSaida( ) ) );
 		}
 		
 		Movimentos movto = movimentoService.insereMovimento( movimento );

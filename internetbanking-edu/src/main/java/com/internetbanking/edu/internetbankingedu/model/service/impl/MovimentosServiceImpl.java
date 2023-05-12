@@ -23,6 +23,7 @@ import org.springframework.stereotype.Service;
 import com.internetbanking.edu.internetbankingedu.model.Movimentos;
 import com.internetbanking.edu.internetbankingedu.model.service.MovimentosService;
 import com.internetbanking.edu.internetbankingedu.repository.MovimentosRepository;
+import com.internetbanking.edu.internetbankingedu.repository.UserRepository;
 
 @Service
 public class MovimentosServiceImpl implements MovimentosService
@@ -30,6 +31,10 @@ public class MovimentosServiceImpl implements MovimentosService
 
 	@Autowired
 	MovimentosRepository repository;
+	
+	@Autowired
+	UserRepository userRepository;
+	
 	private List<Movimentos> movimentos;
 	
 	public MovimentosServiceImpl( MovimentosRepository repository ) 
