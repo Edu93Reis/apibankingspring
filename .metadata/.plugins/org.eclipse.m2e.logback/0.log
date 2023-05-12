@@ -8622,3 +8622,225 @@ java.nio.file.AccessDeniedException: C:\Program Files\Git\etc\.probe-3fe02bb2-e9
 2023-05-11 01:23:57,025 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
 2023-05-11 01:23:57,034 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
 2023-05-11 01:23:57,034 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-11 11:01:17,750 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-05-11 11:01:37,408 [Worker-4: SonarLint processing file /internetbanking-edu/src/main/java/com/internetbanking/edu/internetbankingedu/controller/MovimentosController.java] WARN  org.eclipse.jgit.util.FS - C:\Program Files\Git\etc\.probe-0d9acd60-7254-4d1a-ad27-3dd116b172b5
+java.nio.file.AccessDeniedException: C:\Program Files\Git\etc\.probe-0d9acd60-7254-4d1a-ad27-3dd116b172b5
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.createFile(Files.java:658)
+	at org.eclipse.jgit.util.FS$FileStoreAttributeCache.<init>(FS.java:234)
+	at org.eclipse.jgit.util.FS$FileStoreAttributeCache.getFsTimestampResolution(FS.java:211)
+	at org.eclipse.jgit.util.FS.getFsTimerResolution(FS.java:321)
+	at org.eclipse.jgit.internal.storage.file.FileSnapshot.<init>(FileSnapshot.java:186)
+	at org.eclipse.jgit.internal.storage.file.FileSnapshot.save(FileSnapshot.java:122)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.load(FileBasedConfig.java:156)
+	at org.eclipse.jgit.internal.storage.file.FileRepository.loadSystemConfig(FileRepository.java:245)
+	at org.eclipse.jgit.internal.storage.file.FileRepository.<init>(FileRepository.java:203)
+	at org.eclipse.jgit.storage.file.FileRepositoryBuilder.build(FileRepositoryBuilder.java:88)
+	at org.eclipse.jgit.storage.file.FileRepositoryBuilder.create(FileRepositoryBuilder.java:108)
+	at org.eclipse.egit.core.RepositoryCache.lookupRepository(RepositoryCache.java:58)
+	at org.eclipse.egit.core.project.GitProjectData.map(GitProjectData.java:693)
+	at org.eclipse.egit.core.project.GitProjectData.remapAll(GitProjectData.java:651)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:634)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:220)
+	at org.eclipse.egit.core.project.RepositoryMapping.getProjectData(RepositoryMapping.java:335)
+	at org.eclipse.egit.core.project.RepositoryMapping.findMapping(RepositoryMapping.java:356)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:296)
+	at org.eclipse.egit.core.internal.util.ResourceUtil.getRepository(ResourceUtil.java:712)
+	at org.eclipse.egit.ui.internal.resources.ResourceStateFactory.getIndexDiffDataOrNull(ResourceStateFactory.java:103)
+	at org.eclipse.egit.ui.internal.resources.ResourceStateFactory.get(ResourceStateFactory.java:159)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.sonarlint.eclipse.core.internal.vcs.OldEGitVcsFacade.isIgnored(OldEGitVcsFacade.java:46)
+	at org.sonarlint.eclipse.core.internal.resources.DefaultSonarLintFileAdapter.isScmIgnored(DefaultSonarLintFileAdapter.java:97)
+	at org.sonarlint.eclipse.core.internal.jobs.AbstractAnalyzeProjectJob.isScmIgnored(AbstractAnalyzeProjectJob.java:182)
+	at org.sonarlint.eclipse.core.internal.jobs.AbstractAnalyzeProjectJob.lambda$2(AbstractAnalyzeProjectJob.java:120)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.sonarlint.eclipse.core.internal.jobs.AbstractAnalyzeProjectJob.doRun(AbstractAnalyzeProjectJob.java:118)
+	at org.sonarlint.eclipse.core.internal.jobs.AbstractSonarProjectJob.run(AbstractSonarProjectJob.java:45)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2023-05-11 11:20:45,000 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2023-05-11 11:20:45,222 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-11 11:20:46,254 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-11 11:20:46,270 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-11 11:20:46,270 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-11 11:21:10,297 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2023-05-11 11:21:10,314 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-11 11:21:10,319 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-11 11:21:10,326 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-11 11:21:10,326 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-11 11:21:21,005 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2023-05-11 11:21:21,164 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-11 11:21:21,173 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-11 11:21:21,191 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-11 11:21:21,191 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-11 11:22:06,562 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2023-05-11 11:22:06,779 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-11 11:22:06,785 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-11 11:22:06,804 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-11 11:22:06,835 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-11 11:22:17,266 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2023-05-11 11:22:17,343 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-11 11:22:17,348 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-11 11:22:17,360 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-11 11:22:17,360 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-11 11:23:23,292 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2023-05-11 11:23:23,374 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-11 11:23:23,378 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-11 11:23:23,388 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-11 11:23:23,388 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-11 11:25:08,627 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2023-05-11 11:25:08,871 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-11 11:25:08,881 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-11 11:25:08,895 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-11 11:25:08,896 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-11 11:26:05,342 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2023-05-11 11:26:05,419 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-11 11:26:05,423 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-11 11:26:05,435 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-11 11:26:05,435 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-11 11:26:11,736 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2023-05-11 11:26:11,799 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-11 11:26:11,805 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-11 11:26:11,821 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-11 11:26:11,821 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-11 11:26:20,091 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2023-05-11 11:26:20,172 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-11 11:26:20,184 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-11 11:26:20,205 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-11 11:26:20,205 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-11 16:40:47,171 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2023-05-11 16:40:47,353 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-11 16:40:47,362 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-11 16:40:47,375 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-11 16:40:47,375 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-11 16:40:48,857 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2023-05-11 16:40:48,977 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-11 16:40:48,995 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-11 16:40:49,013 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-11 16:40:49,013 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-11 16:41:06,602 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2023-05-11 16:41:06,739 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-11 16:41:06,744 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-11 16:41:06,756 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-11 16:41:06,757 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-11 16:41:18,268 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2023-05-11 16:41:18,490 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-11 16:41:18,495 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-11 16:41:18,502 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-11 16:41:18,503 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-11 16:41:29,094 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2023-05-11 16:41:29,178 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-11 16:41:29,184 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-11 16:41:29,199 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-11 16:41:29,199 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-11 16:46:52,028 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2023-05-11 16:46:52,250 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-11 16:46:52,279 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-11 16:46:52,359 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-11 16:46:52,364 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-11 16:47:10,688 [Worker-43: Launching internetbanking-edu - InternetbankingEduApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2023-05-11 16:47:10,757 [Worker-43: Launching internetbanking-edu - InternetbankingEduApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-11 16:47:10,812 [Worker-43: Launching internetbanking-edu - InternetbankingEduApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-11 16:47:10,896 [Worker-43: Launching internetbanking-edu - InternetbankingEduApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-11 16:47:10,896 [Worker-43: Launching internetbanking-edu - InternetbankingEduApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-11 16:55:03,168 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2023-05-11 16:55:03,367 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-11 16:55:03,379 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-11 16:55:03,408 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-11 16:55:03,414 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-11 16:57:26,703 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2023-05-11 16:57:26,887 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-11 16:57:26,899 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-11 16:57:26,910 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-11 16:57:26,911 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-11 16:57:40,313 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2023-05-11 16:57:40,627 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-11 16:57:40,635 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-11 16:57:40,649 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-11 16:57:40,650 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-11 16:58:55,571 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2023-05-11 16:58:56,376 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-11 16:58:56,390 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-11 16:58:56,402 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-11 16:58:56,411 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-11 16:59:09,836 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2023-05-11 16:59:09,866 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-11 16:59:09,880 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-11 16:59:09,892 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-11 16:59:09,893 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-11 16:59:45,749 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2023-05-11 16:59:46,207 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-11 16:59:46,223 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-11 16:59:46,232 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-11 16:59:46,232 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-11 16:59:54,488 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2023-05-11 16:59:54,844 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-11 16:59:54,854 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-11 16:59:54,880 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-11 16:59:54,881 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-11 17:00:13,162 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2023-05-11 17:00:13,305 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-11 17:00:13,310 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-11 17:00:13,320 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-11 17:00:13,320 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-11 17:00:26,504 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2023-05-11 17:00:26,629 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-11 17:00:26,633 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-11 17:00:26,641 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-11 17:00:26,642 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-11 17:20:38,696 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2023-05-11 17:20:40,101 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-11 17:20:40,120 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-11 17:20:40,146 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-11 17:20:40,148 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-11 17:21:16,178 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2023-05-11 17:21:16,240 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-11 17:21:16,250 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-11 17:21:16,262 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-11 17:21:16,262 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-11 17:21:39,430 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2023-05-11 17:21:39,589 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-11 17:21:39,593 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-11 17:21:39,601 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-11 17:21:39,602 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-11 17:42:53,503 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2023-05-11 17:42:53,776 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-11 17:42:53,790 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-11 17:42:53,962 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-11 17:42:53,962 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-11 17:43:17,311 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2023-05-11 17:43:17,505 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-11 17:43:17,511 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-11 17:43:17,520 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-11 17:43:17,520 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-11 17:43:32,834 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2023-05-11 17:43:33,145 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-11 17:43:33,151 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-11 17:43:33,163 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-11 17:43:33,163 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-11 17:43:47,400 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2023-05-11 17:43:47,437 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-11 17:43:47,440 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-11 17:43:47,444 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-11 17:43:47,444 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-11 17:49:56,284 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2023-05-11 17:49:56,460 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-11 17:49:56,466 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-11 17:49:56,482 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-11 17:49:56,482 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-11 17:50:51,855 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2023-05-11 17:50:52,488 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-11 17:50:52,493 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-11 17:50:52,511 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-11 17:50:52,512 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources
+2023-05-11 17:51:37,977 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2023-05-11 17:51:38,027 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-11 17:51:38,030 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Test Source directory: D:\workspaces\InternetBanking\internetbanking-edu\src\it\java added.
+2023-05-11 17:51:38,037 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\test\resources
+2023-05-11 17:51:38,037 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\workspaces\InternetBanking\internetbanking-edu\src\it\resources

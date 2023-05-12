@@ -43,8 +43,10 @@ public class MovimentosController
 	@Autowired
 	private MovimentosService movimentoService;
 
+	@Autowired
 	private UserService usuarioService;
 
+	@Autowired
 	private AccountService contaService;
 	
 	@PostMapping
@@ -61,10 +63,10 @@ public class MovimentosController
 		return ResponseEntity.ok( movto );
 	}
 	
-	@GetMapping("{id}/saldo")
+	@GetMapping("/{idUser}/saldo")
 	@ApiOperation(value = "Route to get account's registers by period and user")
 	public ResponseEntity obterMovimentoData( @RequestBody Movimentos movimento, @PathVariable( "idUser" ) Long idUser,
-											  @PageableDefault(page = 1, size = 10, sort = {"id"}) Pageable pageable ) 
+											  @PageableDefault(page = 1, size = 10, sort = {"idUser"}) Pageable pageable ) 
 	{
 		Optional<User> usuario = usuarioService.obterPorId( idUser );
 		
@@ -78,7 +80,7 @@ public class MovimentosController
 			
 			return ResponseEntity.ok( movimentos );
 		} else {
-			return ResponseEntity.badRequest( ).body( "Não há movimento para período" );
+			return ResponseEntity.badRequest( ).body( "Não há movimento para o período" );
 		}
 	}
 
